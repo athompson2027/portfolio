@@ -39,7 +39,7 @@ body {
   display: block;
   transform: translate(50%,0);
   width: 50%;
-  border-bottom: 0.5px solid #00aaff;
+  border-bottom: 1.6px solid #00aaff;
   margin-top: 6px;
 
 }
@@ -243,7 +243,7 @@ body {
   display: block;
   transform: translate(50%,0);
   width: 50%;
-  border-bottom: 0.5px solid #ffffff;
+  border-bottom: 1.6px solid #ffffff;
   margin-top: 6px;
 
 }
@@ -255,7 +255,9 @@ body {
 
 .get-back{
     color: #0f1117;
-    font-weight: lighter;
+    font-weight: 600;
+    font-size: 24px;
+    
 }
 
 .contact-form{
@@ -371,7 +373,7 @@ fieldset {
 .fs-input,
 .fs-select {
   appearance: none;
-  border-radius: 9999px;
+  border-radius: 15px;
   border-width: 0;
   box-shadow: var(--color-border-default) 0 0 0 1px inset;
   color: var(--color-text-default);
@@ -542,7 +544,7 @@ fieldset {
 
 .fs-textarea {
   appearance: none;
-  border-radius: 0.75rem;
+  border-radius: 0.2rem;
   border-width: 0;
   box-shadow: var(--color-border-default) 0 0 0 1px inset;
   color: var(--color-text-default);

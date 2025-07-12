@@ -20,7 +20,7 @@ import { padding, style } from '@mui/system';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xanjzjew");
-  if (state.succeeded) {
+  if (state===state) {
       return <div className="base gray" id='Contacts'>
         <div className='contact-form'>
           <h3 className='get-back'>
@@ -52,7 +52,7 @@ function ContactForm() {
 
       <div class="fs-button-group">
         <button className="fs-button" type="submit">
-          Submit
+          Send
         </button>
       </div>
 
